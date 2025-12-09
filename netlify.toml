@@ -1,0 +1,23 @@
+[build]
+  command = "pip install zensical && zensical build"
+  publish = "site"
+
+# 404 页面
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# 缓存配置
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
