@@ -1,6 +1,7 @@
 [build]
-  command = "pip install zensical && zensical build"
+  command = "python3 -m pip install --upgrade pip && python3 -m pip install zensical && python3 -m zensical build"
   publish = "site"
+
 
 # 404 页面
 [[redirects]]
