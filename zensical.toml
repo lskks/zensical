@@ -322,4 +322,5 @@ code = "Jetbrains Mono"
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.superfences]
 [project.markdown_extensions.pymdownx.tabbed]
+
 alternate_style = true
