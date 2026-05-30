@@ -1,0 +1,1 @@
+使用的教材是**David A. Patterson**和**John L. Hennessy**的*Computer Organization and Design: The hardware and software interface(RISC-V 2nd edition)*
