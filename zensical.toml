@@ -12,6 +12,7 @@
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
 site_name = "Notebook"
+site_url = "https://ljhkss.me/"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -272,7 +273,7 @@ features = [
 # - https://zensical.org/docs/setup/colors/
 # ----------------------------------------------------------------------------
 [[project.theme.palette]]
-scheme = "default"
+scheme = "indigo"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
@@ -290,6 +291,7 @@ toggle.name = "Switch to light mode"
 [project.theme.font]
 text = "Inter"
 code = "Jetbrains Mono"
+size = 18
 
 # ----------------------------------------------------------------------------
 # You can configure your own logo to be shown in the header using the "logo"

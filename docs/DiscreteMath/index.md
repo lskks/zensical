@@ -9,6 +9,6 @@ tags:
 我使用的教材是Epp的*Discrete Mathematics With Its Applications*
 
 <figure markdown="span">
-  ![TextBook Cover](textbook.png){ width="600" ,height="400" }
+  ![TextBook Cover](textbook.png){ width="300" }
   <figcaption></figcaption>
 </figure>
