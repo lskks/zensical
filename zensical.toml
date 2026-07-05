@@ -79,6 +79,10 @@ extra_css = [
     "stylesheets/extra.css"
 ]
 
+extra_files = [
+  "BingSiteAuth.xml"
+]
+
 [project.markdown_extensions.pymdownx.arithmatex]
 
 generic = true
