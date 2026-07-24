@@ -1,0 +1,14 @@
+.md-typeset .admonition.proposition,
+/* .md-typeset details.recommend {
+  border-color: rgb(54 238 168);
+} */
+.md-typeset .proposition > .admonition-title,
+/* .md-typeset .recommend > summary {
+  background-color: rgba(54, 238, 168, 0.1);
+} */
+.md-typeset .proposition > .admonition-title::before,
+.md-typeset .proposition > summary::before {
+  /* background-color: rgb(54 238 168); */
+  -webkit-mask-image: var(--md-admonition-icon--proposition);
+          mask-image: var(--md-admonition-icon--proposition);
+}

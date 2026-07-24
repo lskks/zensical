@@ -77,7 +77,8 @@ extra_javascript = [
 extra_css = [
     "https://unpkg.com/katex@0/dist/katex.min.css",
     "stylesheets/extra.css",
-    "stylesheets/riscv.css"
+    "stylesheets/riscv.css",
+    "stylesheets/custom.css"
 ]
 
 extra_files = [
